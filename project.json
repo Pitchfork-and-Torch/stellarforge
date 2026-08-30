@@ -1,0 +1,12 @@
+{
+  "slug": "stellarforge-open-collaborative-space-mission-kit",
+  "title": "StellarForge Mission Design Education Kit (v1.0.0)",
+  "projectTitle": "StellarForge: Open Collaborative Space Mission Design & Simulation Kit",
+  "version": "v1.0.0",
+  "sealedAt": "2026-08-13T04:17:58.629Z",
+  "license": "MIT / Apache-2.0",
+  "proposerHandle": "SuddenlyJon",
+  "sealNote": "StellarForge ships an open education kit for collaborative space mission design and simulation. Peaceful exploration only. MIT/Apache-2.0 leaves packaged for students and CubeSat teams. Forged on GrokForge.",
+  "acceptedDeliverables": 9,
+  "forgedOn": "GrokForge"
+}
