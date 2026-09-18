@@ -1,0 +1,1 @@
+local-agent-worker (vps-hetzner-1) + optional ollama
