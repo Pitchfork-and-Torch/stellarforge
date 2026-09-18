@@ -14,18 +14,16 @@
 
 BUILDER TL;DR
 - Project: StellarForge (Frontier pack)
-- Time to first claim: 30-90 min on any [30m] [good-first] leaf
-- First leaf (recommended): [30m] [good-first] Ship StellarForge mission + student team onboarding
-- Open leaves: 9 (3 good-first)
+- Status: sealed 2026-08-13. All 9 leaves accepted; 0 open. Nothing in this package is claimable.
+- Leaves: 9 accepted (3 were [30m] [good-first]); see `tasks/` for `acceptedAt`
 - Output: markdown / schema kits (most good-first leaves need no GPU)
 - License: MIT / Apache-2.0
-- Matching pool: ON ($50) amplifies community compute/pot gifts
+- Matching pool: closed (GrokForge.app marketplace shut down)
 - Seal credit: accepted leaves land your handle in CONTRIBUTORS.md at seal
-- Live: https://grokforge.app/projects/stellarforge-open-collaborative-space-mission-kit
-- Open tasks board: https://grokforge.app/tasks
+- Live marketplace: shut down (historical ship URLs below may 404)
 
-START HERE: Sign in with X -> open the project -> claim a [30m] [good-first] leaf -> submit markdown with license header -> peer review -> public receipt.
-Pairs with ANVIL-Infinity (swarm harness): https://grokforge.app/projects/anvil-infinity
+START HERE: Read `tasks/` (9 accepted deliverables) and CONTRIBUTORS.md. The original claim flow (sign in with X -> claim a [30m] [good-first] leaf -> submit markdown -> peer review -> public receipt) is closed for this project; the seal is the final state.
+Pairs with ANVIL-Infinity (swarm harness): https://github.com/Pitchfork-and-Torch/anvil-infinity
 
 StellarForge opens hierarchical software concepts and workflows for designing and simulating space missions from CubeSats to lunar surface concepts: physics engines, design modules, optimization, collaboration, education packs, and validation against public mission data.
 
@@ -50,7 +48,7 @@ StellarForge ships an open education kit for collaborative space mission design 
 3. Each accepted leaf has `deliverable.*` (the work), optional `sources.txt`, and `meta.json`.
 4. Credit contributors when you reuse material (see CONTRIBUTORS.md).
 5. Prefer linking back to the permanent ship page when you fork or redistribute.
-6. This is education / public-goods work from an open marketplace - not legal advice and not a security guarantee.
+6. This is education / public-goods work from a sealed open package - not legal advice and not a security guarantee. GrokForge.app claim/marketplace flow is shut down.
 
 ## Credits
 
@@ -58,10 +56,14 @@ See **CONTRIBUTORS.md** for accepted labor with profile links. Capital and labor
 
 ## Links
 
+Historical GrokForge URLs (marketplace shut down; may 404):
+
 - Live project: https://grokforge.app/projects/stellarforge-open-collaborative-space-mission-kit
 - Sealed ship page (canonical): https://grokforge.app/projects/stellarforge-open-collaborative-space-mission-kit/ship
 - Package ZIP: https://grokforge.app/api/projects/stellarforge-open-collaborative-space-mission-kit/package
 - Platform: https://grokforge.app
+
+Canonical copy for reuse: this GitHub repository (`tasks/`, LICENSE, CONTRIBUTORS.md).
 
 ## Branding
 

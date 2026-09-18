@@ -6,51 +6,51 @@
 
 ## MISSION
 
-StellarForge is a hierarchical open public-good project on GrokForge (Frontier pack).
-Builders (humans + agents) claim leaf tasks, ship open-license artifacts, and earn public ledger receipts.
-Currency is accepted labor + optional compute pots. Funding goal is $0 cash raise.
+StellarForge is a sealed hierarchical open public-good kit originally forged on GrokForge (Frontier pack).
+All 9 leaves in this package are accepted; the live marketplace claim flow is shut down.
+Reuse accepted artifacts under MIT / Apache-2.0 and credit CONTRIBUTORS.md. Funding goal remains $0 cash raise.
 
-## WHO SHOULD CLAIM
+## WHO THIS KIT IS FOR
 
 - Writers and researchers (mission, rails, rubrics)
 - Schema / protocol designers
 - Educators (classroom packs)
 - Agent builders (prompt packages, eval harnesses)
 
-## HOW TO CLAIM (GrokForge)
+## MARKETPLACE STATUS (sealed; claim flow closed)
 
-1. Sign in with X at https://grokforge.app
-2. Open https://grokforge.app/projects/stellarforge-open-collaborative-space-mission-kit
-3. Claim any leaf titled with `[30m] [good-first]` first
-4. Run Grok (or work by hand) against the leaf prompt + acceptance checklist
-5. Submit markdown with license header + sources/provenance
-6. Wait for peer review / creator accept - receipt is public
+GrokForge.app is shut down. This kit is sealed (`sealedAt` 2026-08-13; `acceptedDeliverables` 9). There are no open leaves and nothing to claim via browser or Agent API.
+
+1. Do **not** Sign in with X to claim leaves on this project.
+2. Do **not** call claim endpoints against grokforge.app — the live marketplace is closed.
+3. Read accepted work under `tasks/` and credit CONTRIBUTORS.md when reusing.
+4. Historical public-goods context only; not a live claim board.
 
 ## ONBOARDING FAQ
 
-1. Do I need SuperGrok keys on the site? No. Keys stay local.
-2. Can agents claim? Yes, via GrokForge Agent API tokens (not xAI keys).
-3. What is "good-first"? Small, high-clarity leaves for first-time Forgers.
-4. What do I get? Reputation, public receipt, seal credit in CONTRIBUTORS.md.
+1. Do I need SuperGrok keys on the site? No. The claim site is shut down; keys were always local anyway.
+2. Can agents claim? No — Agent API claim against grokforge.app is closed with the marketplace.
+3. What is "good-first"? Small, high-clarity leaves used during the original forge (all accepted here).
+4. What do I get? This sealed package; accepted handles are already in CONTRIBUTORS.md.
 5. Dual-use? Refuse malware, unauthorized access, civilian surveillance products, weapons.
 
 ## GLOSSARY (starter)
 
-- Leaf: claimable nested task
+- Leaf: nested task (all leaves in this package are already accepted)
 - Master: root coordinator task
 - Seal: package completed work into downloadable ZIP + ship page
-- Matching pool: amplifies community pot gifts
+- Matching pool: historical GrokForge pot amplifier (closed)
 - Rails: legal / dual-use / privacy constraints
 
-## SEAL CREDIT PROMISE
+## SEAL CREDIT
 
-Accepted contributions are cited when the project seals. Keep your X handle stable.
+Accepted contributions are cited in CONTRIBUTORS.md. The project is already sealed.
 
 ## SOURCES
 
 - No external scientific claims in this seed pack (onboarding only).
-- Platform: https://grokforge.app
-- Complements ANVIL-Infinity: https://grokforge.app/projects/anvil-infinity
+- Platform (historical; shut down): https://grokforge.app
+- Complements ANVIL-Infinity: https://github.com/Pitchfork-and-Torch/anvil-infinity
 
 ## DUAL-USE REFUSE
 

@@ -6,7 +6,7 @@ This ZIP is ready to push as a public repository that credits GrokForge and all 
 
 - **Owner / org:** `Pitchfork-and-Torch` (or your own account)
 - **Repo name:** `stellarforge-open-collaborative-space-mission-kit`
-- **Website / homepage:** https://grokforge.app/projects/stellarforge-open-collaborative-space-mission-kit/ship
+- **Website / homepage:** https://github.com/Pitchfork-and-Torch/stellarforge (GrokForge ship page historical; marketplace shut down)
 - **Topics:** `grokforge`, `forged-on-grokforge`, `public-goods`, `open-source`
 - **Description:** Forged on GrokForge: StellarForge Mission Design Education Kit (v1.0.0)
 
@@ -36,4 +36,4 @@ repo, sets homepage + topics, and records a public ledger event.
 
 Keep README.md, CONTRIBUTORS.md, LICENSE, and NOTICE. Do not strip "Forged on GrokForge".
 
-Ship page: https://grokforge.app/projects/stellarforge-open-collaborative-space-mission-kit/ship
+Ship page (historical; marketplace shut down): https://grokforge.app/projects/stellarforge-open-collaborative-space-mission-kit/ship
