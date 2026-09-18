@@ -1,43 +1,80 @@
-Title: A Visualization for the Prolific Nature of GrokForge Leaf Workers
+# Visualization + classroom lab outline
 
-Overview:
-The Prolific Nature of GrokForge Leaf Workers is a visualization that presents an extensive dataset on GrokForge's leaf workers, including information such as location, date, type of work performed, and amount harvested. The visualization can be presented in various forms, such as infographics or interactive maps.
+**Task:** Visualization + classroom lab outline  
+**Package:** StellarForge Mission Design Education Kit (MIT / Apache-2.0)  
+**Status note:** sealed kit; GrokForge.app marketplace/claim flow is shut down. This leaf is classroom material in `tasks/`, not a live claim.
 
-Goals:
-1. To present the Prolific Nature of GrokForge Leaf Workers in a visually appealing way that highlights their prolific nature
-2. To provide easy access to this data for research purposes and educational purposes, without requiring any prior knowledge or technical proficiency
-3. To ensure that the data is accurate, reliable, and accessible to everyone, regardless of their background or education level
-4. To showcase the ingenuity and hard work of GrokForge leaf workers while providing context and insight into their daily routine
-5. To encourage further research on this topic in order to better understand our ecosystem and our environment
+## Why this rewrite
 
-Criteria:
-1. Visualization must be presented in a single, easy-to-read format that includes at least one visual representation (e.g. Chart, graph, infographic, or map)
-2. Dataset should be accurate, reliable, and up-to-date for the given time period
-3. Data must be accessible to everyone, regardless of their background or education level
-4. Visualization should provide context and insight into the daily routine of GrokForge leaf workers while showcasing the prolific nature of their work
-5. Visualization should be aesthetically pleasing, visually engaging, and intuitive for users to navigate without requiring prior knowledge or technical proficiency
-6. Data must not contain any secret or private information that requires disclosure
-7. MIT header must be present at the top of the visualization and accompanying text should be included in a separate section
-8. Visualization can be presented in both static and interactive forms (e.g. Slideshare, Google slides, PowerPoint)
-9. Interactive elements can include hover effects, pop-ups, and interactive maps to provide context and insight into the data
-10. Visualization can be used to present research findings, educational content, or as a tool for community engagement
-11. MIT header must not be removed from the visualization itself but instead be placed in a separate section
+The previous accepted body was titled and written about "GrokForge Leaf Workers" and leaf harvesting by species/location. That is the wrong domain for this kit. The meta `taskTitle` and README seal target call for **space-mission visualization and a classroom lab outline** (orbits, CubeSat / lunar concepts, public ephemerides), not agriculture or marketplace labor metaphors.
 
-Content:
-- Introduction (500 words)
-- Prolific Nature of GrokForge Leaf Workers (2500 words, including data and visualizations)
-- Interactive Map of Leaf Harvesting Locations (1500 words, with infographics and overlaid layers for data points)
-- Data Overview (500 words)
-- Visualization Guidelines (1000 words)
-- Interactive Elements (500 words, with a separate section for interactive maps and pop-ups)
-- Community Engagement (2000 words, including how the visualization can be used to educate others about GrokForge's leaf workers)
+## Goals
 
-Bonus features:
-- Interactive Visualizations of Leaf Harvesting by Time of Day or Year (e.g. Different color palette for different hours of daylight)
-- Interactive Visualization of Leaf Harvesting by Species (e.g. Different species represented with different colors and patterns)
-- Data Analysis and Statistical Tests (using Python libraries like pandas, scikit-learn, or statsmodels) to support claims made in the visualization, including statistical significance and confidence intervals for trends or conclusions drawn from the data
-- Infographic (e.g. A GIS map of GrokForge's leaf harvesting locations) that can be used as a standalone tool to explore the visualization further or provide a more accessible way to view it
-- Interactive Charts (e.g. Bar charts, line graphs, scatterplots) showing trends in leaf harvests by species or location over time
+1. Give instructors a single-session (45–90 min) lab outline that visualizes public orbital / mission-design concepts.
+2. Prefer public data sources (CelesTrak TLEs, JPL Horizons / NAIF SPICE where available) over fabricated datasets.
+3. Keep dual-use rails: peaceful exploration only; no weapons, strike, or reentry-attack profiles.
+4. Stay honest: plots are educational / illustrative unless the instructor validates numbers against the cited public sources.
 
-Conclusion:
-This visualization presents the Prolific Nature of GrokForge Leaf Workers, providing easy access to this data for research and educational purposes while being presented in a visually engaging way that is accessible to everyone regardless of their background or education level. The additional bonus features provide insights into different aspects of GrokForge's leaf workers' work, statistical analysis, and interactive visualizations, making the visualization more versatile and useful for community engagement and research purposes.
+## Classroom lab outline (one session)
+
+### Prep (instructor, ~15 min before class)
+
+- Pick one public catalog snapshot (e.g. a CelesTrak amateur / cubesat TLE group) **or** a JPL Horizons ephemeris query for a named body.
+- Provide students a small CSV or JSON extract (epoch, inclination, eccentricity, mean motion / period) — no export-controlled payloads.
+- Confirm license header (MIT / Apache-2.0) and dual-use refuse note appear on the lab handout.
+
+### Student steps (45–75 min)
+
+1. **Ingest** — Load the provided public extract; reject empty/whitespace files fail-closed.
+2. **2-D orbit sketch** — Plot inclination vs period (or semi-major axis proxy) for the sample set; label axes and units.
+3. **Ground-track concept (qualitative)** — Sketch or animate a simple ground-track cartoon for one LEO-like row; mark that it is illustrative if not numerically validated.
+4. **Mission-pack link** — Map one point on the plot to the CubeSat or lunar ISRU example pack elsewhere in this kit; note what is still "unknown / unvalidated".
+5. **Refuse check** — Short written answer: what requests would this lab refuse (weapons, strike trajectories, classified data)?
+
+### Deliverables students submit
+
+- One figure (static PNG/SVG or notebook cell) with axis labels and a source line pointing at the public catalog used.
+- A five-line provenance note: data URL/name, access date, what was not validated, license of the handout.
+- Dual-use refuse acknowledgement (checkbox).
+
+## Visualization guidelines (kit authors)
+
+| View | Purpose | Honest label |
+| --- | --- | --- |
+| Inclination–period scatter | Compare LEO / SSO-like class rows | Illustrative unless TLE epoch matched |
+| Simple altitude / period histogram | Class distribution for CubeSat-like set | Educational |
+| Qualitative ground-track | Teach Earth-fixed path idea | Cartoon / not operational |
+| Mission timeline strip | Link to example packs (CubeSat, lunar ISRU) | Concept only |
+
+**Do not** ship GIS maps of "leaf harvesting", species charts, or GrokForge worker labor dashboards in this leaf — those belong to no StellarForge seal target.
+
+## Bonus (optional)
+
+- Side-by-side: student plot vs a public Horizons ephemeris check for one named object.
+- Accessibility: provide a tabular summary equivalent to every chart.
+- Static + interactive (e.g. notebook widgets) variants of the same axes.
+
+## Acceptance checklist
+
+- [x] Title and body match **Visualization + classroom lab outline** for space mission education
+- [x] No leaf-harvest / plant-species / "leaf worker" topic drift
+- [x] Points at public mission/orbital sources (CelesTrak / Horizons / SPICE class)
+- [x] Dual-use refuse + MIT / Apache-2.0 + sealed-kit note
+- [x] Classroom session steps a peer can run without private GrokForge claim UI
+
+## Dual-use refuse
+
+Refuse weapons, strike systems, reentry attack profiles, classified trajectories, and export-controlled technical data. This leaf is peaceful classroom visualization only.
+
+## License
+
+MIT / Apache-2.0 (see `LICENSE`, `NOTICE`). Not legal advice.
+
+## Sources / provenance
+
+- CelesTrak (public TLE / satcat style catalogs): https://celestrak.org/
+- NAIF SPICE tutorials / kernels index: https://naif.jpl.nasa.gov/
+- JPL Horizons: https://ssd.jpl.nasa.gov/horizons/
+- Kit complements: leaf 08 example mission packs; leaf 09 public-mission KIT-INDEX
+
+Forged on GrokForge (historical). Canonical copy: this GitHub `tasks/` tree.
